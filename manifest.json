@@ -1,0 +1,26 @@
+{
+  "name": "ShellTeam",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Team communication for developers",
+  "browser_action": {
+    "default_icon": "images/ext.png",
+	"default_title": "ShellTeam",
+    "default_popup": "popup.html"
+  },
+  "homepage_url": "http://www.shellcode.com.br",
+  "permissions": [
+	"geolocation",
+	"unlimitedStorage",
+	"notifications",
+	"http://*.google.com/",
+	"http://*.shellcode.com.br/",
+	"http://*.andersoncalixto.com.br/",
+	"http://*.facebook.com/",
+	"*://ajax.googleapis.com/"
+  ],
+  "web_accessible_resources": [
+	"css/ext.css",
+   "images/ext.png"
+  ]
+}
